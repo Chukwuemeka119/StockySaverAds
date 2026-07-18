@@ -553,7 +553,7 @@ nav {
 .sim-dash-label.blue { color:#6aafff; }
 .sim-dash-label.green { color:#6affd4; }
 
-.sim-inv {}
+
 .sim-inv-row { display:flex; justify-content:space-between; align-items:center; padding:7px 0; border-bottom:1px solid #2a2e18; font-size:0.72rem; }
 .sim-inv-row:last-child { border-bottom:none; }
 .sim-inv-name { font-weight:500; }
@@ -664,7 +664,18 @@ footer {
   text-transform: uppercase;
   color: var(--yellow);
 }
-.footer-brand span { color: var(--muted); font-weight: 400; }
+.footer-brand span { 
+   color: var(--muted);
+   font-weight: 400; 
+   text-decoration: none; }
+.footer-brand a{
+   color: var(--muted);
+    font-weight: 400; 
+    text-decoration: none; 
+}
+.footer-brand a:hover{
+   color: var(--yellow-dim);
+}
 
 .footer-links { display: flex; gap: 20px; }
 .footer-links a {
@@ -758,6 +769,7 @@ footer {
     <a href="#features">Features</a>
     <a href="#screenshots">Preview</a>
     <a href="#contact">Contact</a>
+    <a href="http://chukwuemeka119.github.io/Michaelweb" target="_blank" rel="noopener noreferrer"> Michael Web </a>
   </div>
   <div class="nav-badge">New Product</div>
 </nav>
@@ -937,7 +949,7 @@ footer {
     <div class="contact-info">
       <div class="contact-item"><span class="icon">📞</span><a href="https://wa.me/2348033441185">08033441185</a></div>
       <div class="contact-item"><span class="icon">📍</span><span>Abuja, Nigeria</span></div>
-      <div class="contact-item"><span class="icon">🌐</span><span>Michael Web™</span></div>
+      <div class="contact-item"><span class="icon">🌐</span><span> <a href="http://chukwuemeka119.github.io/Michaelweb" target="_blank" rel="noopener noreferrer"> Michael Web™ </a></span></div>
     </div>
 
     <a href="https://wa.me/2348033441185" class="big-cta">💬 Message Us on WhatsApp →</a>
@@ -946,7 +958,7 @@ footer {
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-brand">StockSavvy Store <span>by Michael Web™</span></div>
+  <div class="footer-brand">StockSavvy Store <span>by <a href="http://chukwuemeka119.github.io/Michaelweb" target="_blank" rel="noopener noreferrer"> Michael Web™ </a> </span></div>
   <div class="footer-links">
     <a href="#features">Features</a>
     <a href="#screenshots">Preview</a>
